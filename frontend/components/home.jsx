@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="container mt-4">
       <div className="p-4 bg-light rounded shadow-sm">
-        <h1>AW_Tech — Industrial Attachment in Muhang</h1>
+        <h1>AW_Tech </h1>
         <p className="lead">We provide hands-on industrial attachment opportunities for secondary school students — training, mentorship, and placement in tech and industry.</p>
 
         <h5>Attachment stages</h5>
