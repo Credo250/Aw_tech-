@@ -1,8 +1,6 @@
-
 import React, { useEffect, useState } from 'react';
 
 export default function AdminDashboard({ token }) {
-  const [pending, setPending] = useState([]);
   const [apps, setApps] = useState([]);
   const [stats, setStats] = useState({ pending: 0, approved: 0, rejected: 0, total: 0 });
   const [loading, setLoading] = useState(true);
